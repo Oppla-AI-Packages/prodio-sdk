@@ -27,7 +27,7 @@ export class PreviewPanel {
   loadStyle(): void {
     const id = "flows-panel-styles";
     if (document.querySelector(`#${id}`)) return;
-    const href = `https://cdn.jsdelivr.net/npm/@insihts/workflow@${version}/css.min/panel.css`;
+    const href = `https://cdn.jsdelivr.net/npm/@oppla-ai/flows@${version}/css.min/panel.css`;
     const styleEl = <link id={id} rel="stylesheet" href={href} />;
     document.head.appendChild(styleEl);
   }
@@ -53,7 +53,8 @@ export class PreviewPanel {
             <button className="flows-panel-btn flows-preview-reset">Reset</button>
             <a
               className="flows-panel-btn"
-              href={`https://app.flows.sh/project/${projectId}/flow/${this.flowId}/edit`}
+              // href={`https://app.oppla.ai/project/${projectId}/flow/${this.flowId}/edit`}
+              href={`https://app.oppla.ai/home`}
               target="_blank"
             >
               Edit flow
