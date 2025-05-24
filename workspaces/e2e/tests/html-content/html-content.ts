@@ -1,5 +1,5 @@
-import type { FlowStep, FlowTooltipStep } from "@insihts/workflow";
-import { init } from "@insihts/workflow/core";
+import type { FlowStep, FlowTooltipStep } from "@oppla-ai/flows";
+import { init } from "@oppla-ai/flows/core";
 
 const tooltip = new URLSearchParams(window.location.search).get("tooltip") === "true";
 

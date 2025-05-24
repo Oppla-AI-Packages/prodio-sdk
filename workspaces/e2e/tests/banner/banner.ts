@@ -1,4 +1,4 @@
-import { FlowBannerStep, init } from "@insihts/workflow/core";
+import { FlowBannerStep, init } from "@oppla-ai/flows/core";
 
 const position =
   (new URLSearchParams(window.location.search).get("position") as

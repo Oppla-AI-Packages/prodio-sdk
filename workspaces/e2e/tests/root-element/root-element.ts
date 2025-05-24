@@ -1,6 +1,6 @@
-import { FlowTooltipStep } from "@insihts/workflow";
-import { FlowStep } from "@insihts/workflow";
-import { init } from "@insihts/workflow/core";
+import { FlowTooltipStep } from "@oppla-ai/flows";
+import { FlowStep } from "@oppla-ai/flows";
+import { init } from "@oppla-ai/flows/core";
 
 const initRootElement =
   new URLSearchParams(window.location.search).get("initRootElement") === "true";

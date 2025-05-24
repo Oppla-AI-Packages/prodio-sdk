@@ -1,4 +1,4 @@
-import { Flow } from "@insihts/workflow";
+import { Flow } from "@oppla-ai/flows";
 
 export const validFlow: Flow = {
   id: "valid-flow",

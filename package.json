@@ -1,5 +1,5 @@
 {
-  "name": "@insihts/workflow",
+  "name": "@oppla-ai/flows",
   "description": "Prodio monorepo",
   "scripts": {
     "e2e": "pnpm --filter e2e",

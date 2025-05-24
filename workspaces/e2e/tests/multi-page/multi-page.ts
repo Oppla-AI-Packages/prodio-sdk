@@ -1,4 +1,4 @@
-import { init, startFlow } from "@insihts/workflow/core";
+import { init, startFlow } from "@oppla-ai/flows/core";
 
 init({
   flows: [

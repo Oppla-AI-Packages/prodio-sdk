@@ -1,5 +1,5 @@
-import type { FlowSteps } from "@insihts/workflow";
-import { init, startFlow } from "@insihts/workflow/core";
+import type { FlowSteps } from "@oppla-ai/flows";
+import { init, startFlow } from "@oppla-ai/flows/core";
 
 const lastStep = new URLSearchParams(window.location.search).get("lastStep") === "true";
 const hideNext = new URLSearchParams(window.location.search).get("hideNext") !== "false";
